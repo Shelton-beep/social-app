@@ -36,7 +36,11 @@ export const TopBar = () => {
               <span className="topBarIconBadge">6</span>
             </div>
           </div>
-          <img src="./" alt="Profile Image" className="topBarImage" />
+          <img
+            src="../../assets/images/image1.jpeg"
+            alt="Profile Image"
+            className="topBarImage"
+          />
         </div>
       </div>
     </>
