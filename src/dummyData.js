@@ -7,54 +7,54 @@ export const Users = [
     {
         id:2,
         profilePicture:"../../assets/images/image2.jpg",
-        username: "Lisa Bakti"
+        username: "Sharon Nuyer"
     },
     {
         id:3,
         profilePicture:"../../assets/images/image3.jpg",
-        username: "Lisa Bakti"
+        username: "Lizabethsa Bskakti"
     },
     {
         id:4,
         profilePicture:"../../assets/images/image4.jpg",
-        username: "Lisa Bakti"
+        username: "Sali Tibai"
     },
     {
         id:5,
         profilePicture:"../../assets/images/image5.jpg",
-        username: "Lisa Bakti"
+        username: "Shelly Javakti"
     },
     {
         id:6,
         profilePicture:"../../assets/images/image6.jpg",
-        username: "Lisa Bakti"
+        username: "Lazarous Jacka"
     },
     {
         id:7,
         profilePicture:"../../assets/images/image7.jpg",
-        username: "Lisa Bakti"
+        username: "Shelton Huni"
     },
     {
         id:8,
         profilePicture:"../../assets/images/image8.jpg",
-        username: "Lisa Bakti"
+        username: "Gideon Lisati"
     },
     {
         id:9,
         profilePicture:"../../assets/images/image9.jpg",
-        username: "Lisa Bakti"
+        username: "Shreni Philip"
     },
     {
         id:10,
         profilePicture:"../../assets/images/image10.jpg",
-        username: "Lisa Bakti"
+        username: "George Kings"
     }
 ];
 
 export const Posts = [
     {
         id:1,
-        desc:"hello there",
+        desc:"Lovely and beautiful day!!",
         photo:"../../assets/images/image2.jpg",
         date:"5 min ago",
         userId:1,
@@ -63,38 +63,36 @@ export const Posts = [
     },
     {
         id:2,
-        desc:"hello there",
         photo:"../../assets/images/image6.jpg",
-        date:"5 min ago",
-        userId:1,
-        like:32,
-        comment:9
+        date:"30 min ago",
+        userId:5,
+        like:17,
+        comment:19
     },
     {
         id:3,
-        desc:"hello there",
+        desc:"Colouring this life",
         photo:"../../assets/images/image3.jpg",
-        date:"5 min ago",
-        userId:1,
-        like:32,
-        comment:9
+        date:"1 day ago",
+        userId:4,
+        like:326,
+        comment:90
     },
     {
         id:4,
-        desc:"hello there",
+        desc:"Am i alive, hello there",
         photo:"../../assets/images/image10.jpg",
-        date:"5 min ago",
-        userId:1,
-        like:32,
-        comment:9
+        date:"2 days ago",
+        userId:8,
+        like:5,
+        comment:2
     },
     {
         id:5,
-        desc:"hello there",
         photo:"../../assets/images/image7.jpg",
-        date:"5 min ago",
-        userId:1,
-        like:32,
-        comment:9
+        date:"2 days ago",
+        userId:10,
+        like:3200,
+        comment:91
     }
 ]
