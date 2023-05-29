@@ -1,5 +1,5 @@
 import "./Post.css";
-import Image1 from "../../assets/images/Image1.jpeg";
+import Image2 from "../../assets/images/image2.jpg";
 import Like from "../../assets/like.png";
 import Heart from "../../assets/heart.png";
 import { MoreVert } from "@mui/icons-material";
@@ -11,7 +11,7 @@ export const Post = () => {
         <div className="postTop">
           <div className="postTopLeft">
             <img
-              src={Image1}
+              src={Image2}
               alt="postProfileImage"
               className="postProfileImage"
             />
@@ -24,7 +24,7 @@ export const Post = () => {
         </div>
         <div className="postCenter">
           <span className="postText">MY FISRT POST</span>
-          <img src={Image1} alt="postImage" className="postImage" />
+          <img src={Image2} alt="postImage" className="postImage" />
         </div>
         <div className="postBottom">
           <div className="postBottomLeft">
