@@ -1,4 +1,5 @@
 import "./SideBar.css";
+import Image1 from "../../assets/images/image1.jpeg";
 import {
   BookmarksOutlined,
   Event,
@@ -57,67 +58,35 @@ export const SideBar = () => {
         <hr className="sideBarHr" />
         <ul className="sideBarFriendList">
           <li className="sideBarFriend">
-            <img
-              className="sideBarFriendImage"
-              src="../../assets/images/image1.jpeg"
-              alt="Friend"
-            />
+            <img className="sideBarFriendImage" src={Image1} alt="Friend" />
             <span className="sideBarFriendName">Denise Anesu</span>
           </li>
           <li className="sideBarFriend">
-            <img
-              className="sideBarFriendImage"
-              src="../../assets/images/image1.jpeg"
-              alt="Friend"
-            />
+            <img className="sideBarFriendImage" src={Image1} alt="Friend" />
             <span className="sideBarFriendName">Denise Anesu</span>
           </li>
           <li className="sideBarFriend">
-            <img
-              className="sideBarFriendImage"
-              src="../../assets/images/image1.jpeg"
-              alt="Friend"
-            />
+            <img className="sideBarFriendImage" src={Image1} alt="Friend" />
             <span className="sideBarFriendName">Denise Anesu</span>
           </li>
           <li className="sideBarFriend">
-            <img
-              className="sideBarFriendImage"
-              src="../../assets/images/image1.jpeg"
-              alt="Friend"
-            />
+            <img className="sideBarFriendImage" src={Image1} alt="Friend" />
             <span className="sideBarFriendName">Denise Anesu</span>
           </li>
           <li className="sideBarFriend">
-            <img
-              className="sideBarFriendImage"
-              src="../../assets/images/image1.jpeg"
-              alt="Friend"
-            />
+            <img className="sideBarFriendImage" src={Image1} alt="Friend" />
             <span className="sideBarFriendName">Denise Anesu</span>
           </li>
           <li className="sideBarFriend">
-            <img
-              className="sideBarFriendImage"
-              src="../../assets/images/image1.jpeg"
-              alt="Friend"
-            />
+            <img className="sideBarFriendImage" src={Image1} alt="Friend" />
             <span className="sideBarFriendName">Denise Anesu</span>
           </li>
           <li className="sideBarFriend">
-            <img
-              className="sideBarFriendImage"
-              src="../../assets/images/image1.jpeg"
-              alt="Friend"
-            />
+            <img className="sideBarFriendImage" src={Image1} alt="Friend" />
             <span className="sideBarFriendName">Denise Anesu</span>
           </li>
           <li className="sideBarFriend">
-            <img
-              className="sideBarFriendImage"
-              src="../../assets/images/image1.jpeg"
-              alt="Friend"
-            />
+            <img className="sideBarFriendImage" src={Image1} alt="Friend" />
             <span className="sideBarFriendName">Denise Anesu</span>
           </li>
         </ul>

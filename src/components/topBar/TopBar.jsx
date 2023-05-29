@@ -1,4 +1,5 @@
 import "./TopBar.css";
+import Image1 from "../../assets/images/image1.jpeg";
 import { Chat, Person, Search, Notifications } from "@mui/icons-material";
 
 export const TopBar = () => {
@@ -19,7 +20,7 @@ export const TopBar = () => {
         </div>
         <div className="topBarRight">
           <div className="topBarLinks">
-            <span className="topBarLink">HomaPage</span>
+            <span className="topBarLink">HomePage</span>
             <span className="topBarLink">TimeLine</span>
           </div>
           <div className="topBarIcons">
@@ -36,11 +37,7 @@ export const TopBar = () => {
               <span className="topBarIconBadge">6</span>
             </div>
           </div>
-          <img
-            src="../../assets/images/image1.jpeg"
-            alt="Profile Image"
-            className="topBarImage"
-          />
+          <img src={Image1} alt="Profile Image" className="topBarImage" />
         </div>
       </div>
     </>
