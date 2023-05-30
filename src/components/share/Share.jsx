@@ -1,5 +1,5 @@
 import "./Share.css";
-import Image1 from "../../assets/images/Image1.jpeg";
+import Image1 from "../../assets/images/image1.jpeg";
 import { EmojiEmotions, Label, PermMedia, Room } from "@mui/icons-material";
 
 export const Share = () => {
